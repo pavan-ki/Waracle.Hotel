@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{81386B4F-FE87-4554-ACE1-13D65D153545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Waracle.Hotel.RoomManagement.Domain", "Waracle.Hotel.RoomManagement.Domain\Waracle.Hotel.RoomManagement.Domain.csproj", "{516D45D0-8819-4B91-B6BE-FD6BB6EDA66A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Waracle.Hotel.RoomManagement.Application", "Waracle.Hotel.RoomManagement.Application\Waracle.Hotel.RoomManagement.Application.csproj", "{4BE3079C-91F0-4592-A3B7-1628F3F68898}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Waracle.Hotel.RoomManagement.Tests", "Waracle.Hotel.RoomManagement.Tests\Waracle.Hotel.RoomManagement.Tests.csproj", "{E6767970-1615-4B13-B403-A3AB1D51192A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Waracle.Hotel.RoomManagement.Api", "Waracle.Hotel.RoomManagement.Api\Waracle.Hotel.RoomManagement.Api.csproj", "{7E7C3948-15F5-4513-B1BC-34438315AE2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Waracle.Hotel.RoomManagement.Infra", "Waracle.Hotel.RoomManagement.Infra\Waracle.Hotel.RoomManagement.Infra.csproj", "{083ED0DA-F18B-4408-93F9-9CC06EAED66F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{516D45D0-8819-4B91-B6BE-FD6BB6EDA66A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{516D45D0-8819-4B91-B6BE-FD6BB6EDA66A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{516D45D0-8819-4B91-B6BE-FD6BB6EDA66A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{516D45D0-8819-4B91-B6BE-FD6BB6EDA66A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE3079C-91F0-4592-A3B7-1628F3F68898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE3079C-91F0-4592-A3B7-1628F3F68898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE3079C-91F0-4592-A3B7-1628F3F68898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE3079C-91F0-4592-A3B7-1628F3F68898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6767970-1615-4B13-B403-A3AB1D51192A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6767970-1615-4B13-B403-A3AB1D51192A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6767970-1615-4B13-B403-A3AB1D51192A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6767970-1615-4B13-B403-A3AB1D51192A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E7C3948-15F5-4513-B1BC-34438315AE2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7C3948-15F5-4513-B1BC-34438315AE2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7C3948-15F5-4513-B1BC-34438315AE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7C3948-15F5-4513-B1BC-34438315AE2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{083ED0DA-F18B-4408-93F9-9CC06EAED66F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083ED0DA-F18B-4408-93F9-9CC06EAED66F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083ED0DA-F18B-4408-93F9-9CC06EAED66F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083ED0DA-F18B-4408-93F9-9CC06EAED66F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{516D45D0-8819-4B91-B6BE-FD6BB6EDA66A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{4BE3079C-91F0-4592-A3B7-1628F3F68898} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E6767970-1615-4B13-B403-A3AB1D51192A} = {81386B4F-FE87-4554-ACE1-13D65D153545}
+		{7E7C3948-15F5-4513-B1BC-34438315AE2C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{083ED0DA-F18B-4408-93F9-9CC06EAED66F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90C28827-9D0E-45A4-A4F3-402738EC3180}
+	EndGlobalSection
+EndGlobal

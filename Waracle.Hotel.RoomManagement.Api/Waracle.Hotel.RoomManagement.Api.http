@@ -1,0 +1,6 @@
+@Waracle.Hotel.RoomManagement.Api_HostAddress = http://localhost:5258
+
+GET {{Waracle.Hotel.RoomManagement.Api_HostAddress}}/hotels/
+Accept: application/json
+
+###
